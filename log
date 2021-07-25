@@ -1,0 +1,10 @@
+Jun 10 10:44:24 [14532] NOTICE:core:main: version: opensips 2.4.5 (x86_64/linux)
+Jun 10 10:44:24 [14535] Regex 2.2 string: /\{/x/s (len: 7)
+Jun 10 10:44:24 [14535] ERROR:core:subst_parser: bad regular expression { in /{/x/s
+Jun 10 10:44:24 [14535] ERROR:core:tr_eval_re: Can't compile regexp
+Jun 10 10:44:24 [14535] WARNING:core:do_assign: no value in right expression at /tmp/test.cfg:13
+Jun 10 10:44:24 [14535] Regex 2.2 result: <null>
+Jun 10 10:44:24 [14535] Regex 2.4 string: /\\{/x/s (len: 8)
+Jun 10 10:44:24 [14535] Regex 2.4 result: ___xo}___
+Jun 10 10:44:24 [14535] CRITICAL:core:do_action: ASSERTION FAILED - End of test
+Thank you for running opensips
